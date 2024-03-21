@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="navbar">
+    <a href="#home">Trang chủ</a>
+    <a href="#about">Giới thiệu</a>
+    <a href="#services">Dịch vụ</a>
+    <a href="#contact">Liên hệ</a>
+</div>
+  <div class="container">
+    <div class="title">
+        <h2>Thông tin mua vé chuyến bay</h2>
+    </div>
+  <div class="d-flex">
+    <form action="" method="">
+      <label>
+        <span class="fname">Họ <span class="required">*</span></span>
+        <input type="text" name="fname">
+      </label>
+      <label>
+        <span class="lname">Tên đệm và tên <span class="required">*</span></span>
+        <input type="text" name="lname">
+      </label>
+      <label>
+        <span>Ngày/tháng/năm/sinh <span class="required">*</span></span>
+        <input type="date" name="dob">
+      </label>
+      <label>
+        <span>Địa chỉ nhà  <span class="required">*</span></span>
+        <input type="text" name="houseaddress">
+      </label>
+      <label>
+        <span>CMND / CCCD / Hộ Chiếu <span class="required">*</span></span>
+        <input type="text" name="city"> 
+      </label>
+      <label>
+        <span>Số điện thoại <span class="required">*</span></span>
+        <input type="tel" name="city"> 
+      </label>
+      <label>
+        <span>Sân bay khởi hành </span>
+        <input type="text" name="from"> 
+      </label>
+      <label>
+        <span>Sân bay hạ cánh </span>
+        <input type="text" name="to"> 
+      </label>
+      <label>
+        <span>Thời gian khởi hành </span>
+        <input type="time" name="flytime"> 
+      </label>
+      <label>
+        <span>Chỗ ngồi </span>
+        <input type="text" name="seat"> 
+      </label>
+      <label>
+        <span>Loại vé <span class="required">*</span></span>
+        <select name="selection">
+          <option value="select">Chọn loại vé</option>
+          <option value="ZMB">Hạng thường</option>
+          <option value="ZWE">Hạng thương gia</option>
+      </select>
+    </label>
+    </form>
+    <div class="Yorder">
+      <table>
+        <tr>
+          <th colspan="2">Your order</th>
+        </tr>
+        <tr>
+          <td>Product Name x 2(Qty)</td>
+          <td>$88.00</td>
+        </tr>
+        <tr>
+          <td>Subtotal</td>
+          <td>$88.00</td>
+        </tr>
+        
+      </table>
+  
+      <div>
+        <input type="radio" name="dbt" value="dbt" checked> Chuyển khoản qua ngân hàng
+      </div>
+      <div>
+        <input type="radio" name="dbt" value="cd"> Thanh toán tiền mặt tại đại lý
+      </div>
+      <button type="button">Place Order</button>
+    </div>
+   </div>
+  </div>
+</body>
+</html>
